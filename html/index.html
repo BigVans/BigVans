@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+      body {
+        font-family: arial, sans-serif;
+        background-color: #272822;
+        color: #ffffff;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .container {
+        background-color: #333333;
+        border-radius: 8px;
+        padding: 20px;
+      }
+
+      h2 {
+        color: #66d9ef;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        color: #ffffff;
+      }
+
+      th {
+        background-color: #555555;
+      }
+
+      form {
+        margin-top: 20px;
+      }
+
+      label,
+      input,
+      select,
+      button {
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      img {
+        display: flex;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 10px;
+        border-radius: 10px;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: #ffffff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      /* Animation Keyframes */
+      @-moz-keyframes fadein {
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./assets/bigvans.jpg" alt="My picture" />
+      <h2>Chinuma Gideon Uchechukwu</h2>
+      <p>
+        I'm Gideon from Affa Udi Local Goverment Enugu State, Currently learning
+        Software Engineering with AltSchool African through Enugu SME
+      </p>
+    </div>
+    <div class="container">
+      <h2>Training Experience</h2>
+      <p>
+        The Training so far has been good and interesting we learnt html and how
+        to use Github and Git, and also how to push code using Git Bash.
+      </p>
+    </div>
+    <div class="container">
+      <h2>Contact Details</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="name" name="email" required /><br />
+
+        <label for="track">Select Track:</label>
+        <select id="track" name="track" required>
+          <option value="frontend">Frontend</option>
+          <option value="backend">Backend</option></select
+        ><br />
+
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file" /><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="container">
+      <h2>Programming Language</h2>
+      <table>
+        <tr>
+          <th>Programming Language</th>
+          <th>Primary Use</th>
+          <th>Year of Initail Release</th>
+          <th>Notable Feature</th>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>General-purpose programming, web development</td>
+          <td>1991</td>
+          <td>
+            Clean Syntax, readability, extensive standard library, versalite
+            applications, used in AI and data science
+          </td>
+        </tr>
+        <tr>
+          <td>Javascript</td>
+          <td>Web development, front-end scripting</td>
+          <td>1995</td>
+          <td>
+            Client-side scripting, asynchronous programming, supports
+            event-driven programming
+          </td>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>Enterprise applications, mobile development</td>
+          <td>1995</td>
+          <td>
+            Platform independence, object oriented, strong community support,
+            multithreading
+          </td>
+        </tr>
+        <tr>
+          <td>C++</td>
+          <td>Systems programming, game development</td>
+          <td>1985</td>
+          <td>
+            High performance, object oriented, supports low level
+            memorymanipulation, used in game development
+          </td>
+        </tr>
+        <tr>
+          <td>C#</td>
+          <td>Windows applications development, web development</td>
+          <td>2000</td>
+          <td>
+            Object oriented, strong typing, developed by Microsoft, part of the
+            .Net framework
+          </td>
+        </tr>
+      </table>
+    </div>
+    <footer>
+      <p>&copy;2024 Chinuma Gideon Uchechukwu</p>
+    </footer>
+  </body>
+</html>
